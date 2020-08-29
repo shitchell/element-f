@@ -6,7 +6,7 @@ This userscript allows you to full screen any element on the page with a click! 
 
 ### Steps
 
-1. Press *Alt-f* to toggle element selection mode on. The cursor will appear as crosshairs, and the target element will have a slight box-shadow around it
+1. Press *shift-ctrl-f* to toggle element selection mode on. The cursor will appear as crosshairs, and the target element will have a slight box-shadow around it
 2. Once you've got the element you want selected, just click!
 
 ### Customization
