@@ -189,7 +189,11 @@ function validateKeyPress(ev)
 function toggleRunning(ev)
 {
     if (validateKeyPress(ev)) {
-        running = !running;
+      // Prevent whatever the keypress would have triggered
+      ev.stopPropagation();
+      ev.preventDefault();
+
+      running = !running;
         debug("toggled running =>", running);
 
         // Remove any focused elements if not running
