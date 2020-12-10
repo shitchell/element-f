@@ -6,7 +6,7 @@
 // @author       Shaun Mitchell <shaun@shitchell.com>
 // @license      wtfpl
 // @grant        GM_addStyle
-// @version      0.2
+// @version      0.3
 // ==/UserScript==
 
 // Send stuff to the console
